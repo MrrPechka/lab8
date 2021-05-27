@@ -81,11 +81,21 @@
   <servlet>
     <display-name>UserListServlet</display-name>
     <servlet-name>UserListServlet</servlet-name>
-    <servlet-class>bsu.frct.java.lab8.servlet.UserListServlet</servlet-class>
+    <servlet-class>bsu.rfact.java.lab_8.servlet.UserListServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>UserListServlet</servlet-name>
     <url-pattern>/users.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <display-name>ViewServlet</display-name>
+    <servlet-name>ViewServlet</servlet-name>
+    <servlet-class>bsu.rfact.java.lab_8.servlet.ViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewServlet</servlet-name>
+    <url-pattern>/view.do</url-pattern>
   </servlet-mapping>
 
 </web-app>
