@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Calendar;
 
-public class LoginServlet {
+public class LoginServlet extends ChatServlet {
     private static final long serialVersionUID = 1L;
     private int sessionTimeout = 10 * 60;
 

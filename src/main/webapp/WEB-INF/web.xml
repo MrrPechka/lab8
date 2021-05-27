@@ -58,4 +58,24 @@
     <url-pattern>/login.do</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <display-name>MessageListServlet</display-name>
+    <servlet-name>MessageListServlet</servlet-name>
+    <servlet-class>bsu.rfact.java.lab_8.servlet.MessageListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MessageListServlet</servlet-name>
+    <url-pattern>/messages.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <display-name>NewMessageServlet</display-name>
+    <servlet-name>NewMessageServlet</servlet-name>
+    <servlet-class>bsu.rfact.java.lab_8.servlet.NewMessageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewMessageServlet</servlet-name>
+    <url-pattern>/send_message.do</url-pattern>
+  </servlet-mapping>
+
 </web-app>

@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class ChatServlet {
+public class ChatServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     protected HashMap<String, ChatUser> activeUsers;
     protected ArrayList<ChatMessage> messages;
